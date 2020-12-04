@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testSuite3">
+  <test name="Test3">
+     <classes>
+        <class name="users.UserMethods">
+          <methods>
+             <include name="createUser"></include>
+             <include name="modifyUser"></include>
+             <include name="deleteUser"></include>
+          </methods>
+        </class>
+     </classes>
+  </test>
+</suite>

@@ -1,0 +1,25 @@
+package com.java.collections;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Collection {
+
+	public static void main(String[] args) {
+		
+		//List
+		
+		ArrayList list = new ArrayList();
+		list.add("Java");
+		list.add(2);
+		list.add('J');
+		
+		Iterator it = list.iterator();
+		while(it.hasNext())
+			System.out.println(it.next());
+			
+		
+
+	}
+
+}

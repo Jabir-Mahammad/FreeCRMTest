@@ -1,0 +1,9 @@
+Feature: Free CRM Login feature
+
+Scenario: Free CRM login Test scenario 
+
+Given User is already on Logi Page
+When Titlee of the login page is Free CRM 
+Then user enters "batchautomation" and user enters "Test@12345"
+Then user click on Loin button  
+Then user is on Home page

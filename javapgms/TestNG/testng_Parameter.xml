@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testSuite5">
+  <parameter name="strUN" value="admin"></parameter>
+  <parameter name="strPWD" value="manager"></parameter>
+  <test name="Test1">
+    <classes>
+       <class name="parameters.ParamDemo"></class>
+    </classes>
+  </test>
+</suite>

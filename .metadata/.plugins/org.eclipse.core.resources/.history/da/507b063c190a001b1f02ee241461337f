@@ -1,0 +1,10 @@
+Feature: Free CRM Applicationt teting
+
+Scenario: Validate that Login feature
+Given user is on login page
+Then enter uname and pwd
+Then click on login button
+
+Scenario: Validate Home page
+Given user on home page
+Then verify the title 

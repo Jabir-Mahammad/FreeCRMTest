@@ -1,0 +1,15 @@
+package com.java.javaBasics;
+
+public class Stringmethods {
+
+	public static void main(String[] args) {
+	   
+		//Concat-- Concat() and +
+		
+		String s1 = "Welcome";
+		System.out.println(s1.concat("Home ")+" Greddy");
+		
+
+	}
+
+}

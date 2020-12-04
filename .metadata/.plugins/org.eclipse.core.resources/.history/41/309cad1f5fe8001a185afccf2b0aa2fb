@@ -1,0 +1,30 @@
+package com.java.javaBasics;
+
+public class Stringmethods {
+
+	public static void main(String[] args) {
+	   
+		
+		/*String a = "meow";
+		
+		String b = a+"deal";
+		String ab="meowdeal";
+				
+		System.out.println(ab==b);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(ab);*/
+		
+		String str = "my name is jabir";
+		
+		String arr[] = str.split(" ",2);
+		
+		for(String aw:arr)
+			System.out.println(aw);
+		
+		
+		
+
+	}
+
+}

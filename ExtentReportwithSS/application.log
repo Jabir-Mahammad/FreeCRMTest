@@ -1,0 +1,4 @@
+2020-09-16 15:46:33,929  INFO [main] Log4jClass:28 - URL launched
+2020-09-16 15:46:33,976  INFO [main] Log4jClass:30 - Title is valid
+2020-09-16 15:46:54,476  INFO [main] Log4jClass:35 - URL launched
+2020-09-16 15:46:54,496  INFO [main] Log4jClass:37 - Title is valid

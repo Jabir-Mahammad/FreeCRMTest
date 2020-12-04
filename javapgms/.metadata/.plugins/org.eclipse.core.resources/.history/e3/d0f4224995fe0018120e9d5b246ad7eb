@@ -1,0 +1,25 @@
+2018-12-12 20:04:55 INFO  Reporting:44 - URL is navigate successful
+2018-12-12 20:04:55 INFO  Reporting:44 - The data 'admin' was entered in the element 'obj_UserName_Edit' successful
+2018-12-12 20:04:56 INFO  Reporting:44 - The data 'manager' was entered in the element 'obj_Password_Edit' successful
+2018-12-12 20:04:56 INFO  Reporting:44 - The element 'obj_Login_Link' was clicked successful
+2018-12-12 20:05:00 INFO  Reporting:44 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-12 20:05:00 INFO  Reporting:44 - Login is successful
+2018-12-12 20:05:01 INFO  Reporting:44 - The element 'obj_User_Menu' was clicked successful
+2018-12-12 20:05:03 INFO  Reporting:44 - The element 'obj_AddUser_Btn' was clicked successful
+2018-12-12 20:05:06 INFO  Reporting:44 - The data 'demo' was entered in the element 'obj_FirstName_Edit' successful
+2018-12-12 20:05:06 INFO  Reporting:44 - The data 'user1' was entered in the element 'obj_LastName_Edit' successful
+2018-12-12 20:05:07 INFO  Reporting:44 - The data 'demo.user1@gmail.com' was entered in the element 'obj_Email_Edit' successful
+2018-12-12 20:05:07 INFO  Reporting:44 - The data 'demouser1' was entered in the element 'obj_User_UN_Edit' successful
+2018-12-12 20:05:07 INFO  Reporting:44 - The data 'demo' was entered in the element 'obj_User_PWd_Edit' successful
+2018-12-12 20:05:07 INFO  Reporting:44 - The data 'demo' was entered in the element 'obj_User_RetypePWd_Edit' successful
+2018-12-12 20:05:07 INFO  Reporting:44 - The element 'obj_CreateUser_Btn' was clicked successful
+2018-12-12 20:05:10 INFO  Reporting:44 - Both actual: 'user1, demo' & expected: 'user1, demo' are same
+2018-12-12 20:05:10 INFO  Reporting:44 - User created successful
+2018-12-12 20:05:10 INFO  Reporting:44 - Both actual: 'user1, demo' & expected: 'user1, demo' are same
+2018-12-12 20:05:10 INFO  Reporting:44 - User is created and searched
+2018-12-12 20:05:10 INFO  Reporting:44 - The element 'By.xpath: //span[text()='user1, demo']' was clicked successful
+2018-12-12 20:05:12 INFO  Reporting:44 - The element 'By.id: userDataLightBox_deleteBtn' was clicked successful
+2018-12-12 20:05:16 INFO  Reporting:44 - User deleted successful
+2018-12-12 20:05:18 INFO  Reporting:44 - The element 'obj_Logout_Link' was clicked successful
+2018-12-12 20:05:21 INFO  Reporting:44 - Logout is successful
+2018-12-12 20:05:23 ERROR Reporting:47 - Test cases passed

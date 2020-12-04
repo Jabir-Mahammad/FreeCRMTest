@@ -1,0 +1,81 @@
+package XpathAssignment;
+
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ClearTripAutomate {
+
+	public static void main(String[] args) {
+		clearTripflight();
+
+	}
+
+	static void clearTripflight()
+	{
+		ChromeDriver ch = null;
+	    String xpath=null;
+		try
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Library\\drivers\\chromedriver.exe");
+		    ch = new ChromeDriver();
+		    Robot robot = new Robot();
+		    
+		    ch.get("https://www.cleartrip.com");
+		    Thread.sleep(2000);
+		    ch.manage().window().maximize();
+		    Thread.sleep(2000);
+		    
+		    xpath="//input[@id='RoundTrip']";
+		    ch.findElement(By.xpath(xpath)).click();
+		    
+		    //choose boarding location
+		    xpath="//input[@id='FromTag']";
+		    ch.findElement(By.xpath(xpath)).sendKeys("Bangalore");
+		    Thread.sleep(5000);
+	
+		    //press keyboard ENTER botton
+		     robot.keyPress(KeyEvent.VK_ENTER);
+		    
+		    //choose deboarding  location
+		    xpath="//input[@id='ToTag']";
+		    ch.findElement(By.xpath(xpath)).sendKeys("Delhi");
+		    Thread.sleep(5000);
+	
+		    //press keyboard ENTER botton
+		    robot.keyPress(KeyEvent.VK_ENTER);
+		    
+		    Thread.sleep(2000);
+		    
+		    
+		    //enter boarding date (6/12/2018)
+		    xpath="//table/following::tbody/tr[2]/td[4]/a";
+		    ch.findElement(By.xpath(xpath)).click();
+		    Thread.sleep(2000);
+		    
+		   //Enter deboarding date (12/02/2019)
+		    xpath="//div[@class='monthBlock last']/div/a";
+		    ch.findElement(By.xpath(xpath)).click();
+		    Thread.sleep(1000);
+		    xpath="//div[@class='monthBlock last']/table/tbody/tr[3]/td[2]";
+		    ch.findElement(By.xpath(xpath)).click();
+		    
+		    
+		     Thread.sleep(3000);
+		  // ch.close();
+		  
+		}catch(Exception e )
+		{
+			
+           System.out.println(e);
+		
+		}finally
+		{
+			ch = null;
+		}
+	}
+}

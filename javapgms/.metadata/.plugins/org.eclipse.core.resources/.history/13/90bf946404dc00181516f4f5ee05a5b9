@@ -1,0 +1,14 @@
+package assignments.StringAssigment;
+
+public class SplitTheStringWithoutUsingSplitMethod {
+
+	public static void main(String[] args) {
+		
+		String str="India is best in the world";
+		String arr[]=str.split(" ");
+		System.out.println(arr[2]);
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package programs;
+
+public class RemoveSpclCharsFromstring {
+
+	public static void main(String[] args) {
+		
+		String str = "/hello&wor#l@d";
+		
+
+		String s = str.replaceAll("[^a-zA-Z0-9]", "");
+		
+		System.out.println(s);
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.java.collections;
+
+import java.util.ArrayList;
+
+public class Collection {
+
+	public static void main(String[] args) {
+		
+		//List
+		
+		ArrayList list = new ArrayList();
+		list.add("Java");
+		list.add(2);
+		list.add('J');
+		System.out.println(list);
+
+	}
+
+}

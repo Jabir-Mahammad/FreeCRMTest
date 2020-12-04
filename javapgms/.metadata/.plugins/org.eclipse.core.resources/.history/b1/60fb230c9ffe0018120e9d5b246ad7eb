@@ -1,0 +1,6 @@
+2018-12-13 11:44:00 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 11:44:14 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 11:44:15 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 11:44:18 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 11:44:20 FATAL Reporting:50 - exception while executing 'seachFlight' methodnull
+2018-12-13 11:44:20 ERROR Reporting:47 - Test cases failed

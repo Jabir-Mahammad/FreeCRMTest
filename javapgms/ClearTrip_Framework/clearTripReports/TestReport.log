@@ -1,0 +1,23 @@
+2018-12-13 17:10:45 INFO  Reporting:47 - Browser launched successfully
+2018-12-13 17:10:55 INFO  Reporting:47 - URL is navigate successful
+2018-12-13 17:10:56 INFO  Reporting:47 - The element 'trip_Mode' was clicked successful
+2018-12-13 17:10:56 INFO  Reporting:47 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 17:11:00 INFO  Reporting:47 - The data '?' was entered in the element 'FromLoc' successful
+2018-12-13 17:11:00 INFO  Reporting:47 - The data '?' was entered in the element 'FromLoc' successful
+2018-12-13 17:11:01 INFO  Reporting:47 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 17:11:05 INFO  Reporting:47 - The data '?' was entered in the element 'ToLoc' successful
+2018-12-13 17:11:05 INFO  Reporting:47 - The data '?' was entered in the element 'ToLoc' successful
+2018-12-13 17:11:05 INFO  Reporting:47 - The element 'BoardingDate' was clicked successful
+2018-12-13 17:11:07 INFO  Reporting:47 - The element 'DeBoardingDate1' was clicked successful
+2018-12-13 17:11:08 INFO  Reporting:47 - The element 'DeBoardingDate2' was clicked successful
+2018-12-13 17:11:08 INFO  Reporting:47 - dropdown selection passed
+2018-12-13 17:11:10 INFO  Reporting:47 - dropdown selection passed
+2018-12-13 17:11:12 INFO  Reporting:47 - dropdown selection passed
+2018-12-13 17:11:16 INFO  Reporting:47 - The element 'MoreEvents' was clicked successful
+2018-12-13 17:11:16 INFO  Reporting:47 - The element 'PrefAirLine' was clicked successful
+2018-12-13 17:11:17 INFO  Reporting:47 - dropdown selection passed
+2018-12-13 17:11:19 INFO  Reporting:47 - The element 'PrefAirLine' was clicked successful
+2018-12-13 17:11:19 INFO  Reporting:47 - The data 'Air India' was entered in the element 'By.xpath: //div[@class='col col11']/dl/dd/span[@class='span span24 clearField']/input' successful
+2018-12-13 17:11:26 INFO  Reporting:47 - The element 'SearchBtn' was clicked successful
+2018-12-13 17:11:26 INFO  Reporting:47 - Test cases are passed
+2018-12-13 17:11:26 INFO  Reporting:47 - TestScript TC_URL_Navigation is Passed

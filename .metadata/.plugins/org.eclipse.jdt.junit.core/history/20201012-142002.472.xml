@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="FreeCRM-BDD-POM" tests="4" started="4" failures="0" errors="2" ignored="1">
+  <testsuite name="com.crm.qa.runner.TestRunner" time="0.109">
+    <testsuite name="Feature: Free CRM Application" time="0.109">
+      <testsuite name="Scenario: Free CRM Login Validation" time="0.059" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at com.crm.qa.stepDefinition.LoginStepDefinition.user_login_the_Application(LoginStepDefinition.java:32)&#13;
+	at ✽.And user login the Application(E:/SeleniumWorkspace/FreeCRM-BDD-POM/src/main/java/com/crm/qa/features/loginValidation.feature:26)&#13;
+&#13;
+</error>
+        <testcase name="Given user is on browser" classname="Scenario: Free CRM Login Validation" time="0.034"/>
+        <testcase name="And validate that user is on login page" classname="Scenario: Free CRM Login Validation" time="0.005"/>
+        <testcase name="And user login the Application" classname="Scenario: Free CRM Login Validation" time="0.02">
+          <error>java.lang.NullPointerException&#13;
+	at com.crm.qa.stepDefinition.LoginStepDefinition.user_login_the_Application(LoginStepDefinition.java:32)&#13;
+	at ✽.And user login the Application(E:/SeleniumWorkspace/FreeCRM-BDD-POM/src/main/java/com/crm/qa/features/loginValidation.feature:26)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then validate home page title" classname="Scenario: Free CRM Login Validation" time="0.037" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,39 @@
+package XpathAssignment;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ClearTripAutomate {
+
+	public static void main(String[] args) {
+		clearTripflight();
+
+	}
+
+	static void clearTripflight()
+	{
+		ChromeDriver ch = null;
+	    String xpath=null;
+		try
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Library\\drivers\\chromedriver.exe");
+		    ch = new ChromeDriver();
+		    
+		    ch.get("https://www.cleartrip.com");
+		    Thread.sleep(2000);
+		    ch.manage().window().maximize();
+		    
+		    xpath="//*[@id='RoundTrip']";
+		    ch.findElement(By.xpath(xpath)).click();
+		  
+		}catch(Exception e )
+		{
+			
+           System.out.println(e);
+		
+		}finally
+		{
+			ch = null;
+		}
+	}
+}

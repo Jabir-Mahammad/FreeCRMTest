@@ -1,0 +1,22 @@
+2018-12-07 17:29:16 INFO  Reporting:27 - URL is navigate successful
+2018-12-07 17:29:16 INFO  Reporting:27 - The data 'admin' was entered in the element 'By.id: username' successful
+2018-12-07 17:29:16 INFO  Reporting:27 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2018-12-07 17:29:16 INFO  Reporting:27 - The element 'By.xpath: //a[@id='loginButton']' was clicked successful
+2018-12-07 17:29:23 INFO  Reporting:27 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-07 17:29:23 INFO  Reporting:27 - Login is successful
+2018-12-07 17:29:26 INFO  Reporting:27 - The element 'By.xpath: //a[@class='content tasks']' was clicked successful
+2018-12-07 17:29:28 INFO  Reporting:27 - The element 'By.xpath: //*[@class='addNewContainer']' was clicked successful
+2018-12-07 17:29:30 INFO  Reporting:27 - The element 'By.xpath: //*[@class='item createNewProject ellipsis']' was clicked successful
+2018-12-07 17:29:33 INFO  Reporting:27 - The data 'Project1' was entered in the element 'By.xpath: //*[@id='projectPopup_projectNameField']' successful
+2018-12-07 17:29:34 INFO  Reporting:27 - The data 'Client1' was entered in the element 'By.xpath: //*[@id='projectPopup_newCustomerNameField']' successful
+2018-12-07 17:29:34 INFO  Reporting:27 - The element 'By.xpath: //*[@id='projectPopup_commitBtn']' was clicked successful
+2018-12-07 17:29:36 INFO  Reporting:27 - Project created successful
+2018-12-07 17:29:36 INFO  Reporting:27 - Project is created and searched
+2018-12-07 17:29:36 INFO  Reporting:27 - The element 'By.xpath: //div[@class='editButton available']' was clicked successful
+2018-12-07 17:29:38 INFO  Reporting:27 - The element 'By.xpath: //*[@class='actionButton']' was clicked successful
+2018-12-07 17:29:41 INFO  Reporting:27 - The element 'By.xpath: //*[@id='taskListBlock']/div[2]/div[4]/div/div[3]/div' was clicked successful
+2018-12-07 17:29:43 INFO  Reporting:27 - The element 'By.xpath: //*[@id='customerPanel_deleteConfirm_submitBtn']/div' was clicked successful
+2018-12-07 17:29:45 INFO  Reporting:27 - Project deleted successful
+2018-12-07 17:29:50 INFO  Reporting:27 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2018-12-07 17:29:52 INFO  Reporting:27 - Logout is successful
+2018-12-07 17:29:53 INFO  Reporting:27 - Test case passed

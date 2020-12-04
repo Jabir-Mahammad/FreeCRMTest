@@ -1,0 +1,21 @@
+package assignments.StringAssigment;
+
+public class CapitalizefirstLetterOfTheWord {
+
+	public static void main(String[] args) {
+		
+		String str="welcome to sg testing institute";
+		//length of the string
+		int len = str.length();
+		System.out.println("string lenght is "+len);
+		
+		//capitalize the initial letter of each word
+		String str1 = str.substring(0,1).toUpperCase()+str.substring(1, 8)+
+				str.substring(8,9).toUpperCase()+str.substring(9,11)+str.substring(11,12).toUpperCase()+str.substring(12,14)+
+				str.substring(14,15).toUpperCase()+str.substring(15,22)+
+				str.substring(22,23).toUpperCase()+str.substring(23);
+		System.out.println(str1);
+
+	}
+
+}

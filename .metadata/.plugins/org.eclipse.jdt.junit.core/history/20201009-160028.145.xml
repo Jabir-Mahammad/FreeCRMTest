@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="FreeCrmBDDFramework" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.TestRunner" time="0.08">
+    <testsuite name="Feature: Free CRM Applicationt teting" time="0.08">
+      <testsuite name="Scenario: Validate that Login feature" time="0.006">
+        <testcase name="Given user is on login page" classname="Scenario: Validate that Login feature" time="0.002"/>
+        <testcase name="Then enter uname and pwd" classname="Scenario: Validate that Login feature" time="0.002"/>
+        <testcase name="Then click on login button" classname="Scenario: Validate that Login feature" time="0.002"/>
+      </testsuite>
+      <testsuite name="Scenario: Validate Home page" time="0.008">
+        <testcase name="Given user on home page" classname="Scenario: Validate Home page" time="0.002"/>
+        <testcase name="Then verify the title" classname="Scenario: Validate Home page" time="0.006"/>
+      </testsuite>
+      <testsuite name="Scenario Outline: Vlidate contacts page" time="0.056">
+        <testsuite name="Examples:" time="0.056">
+          <testsuite name="| tom | 123@abc |" time="0.002">
+            <testcase name="Given on contact page" classname="| tom | 123@abc |" time="0.001"/>
+            <testcase name="And Validate contacts name" classname="| tom | 123@abc |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| batchautomation | Test@12345 |" time="0.048">
+            <testcase name="Given on contact page" classname="| batchautomation | Test@12345 |" time="0.001"/>
+            <testcase name="And Validate contacts name" classname="| batchautomation | Test@12345 |" time="0.047"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

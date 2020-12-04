@@ -1,0 +1,70 @@
+package actiTimeAssignment;
+
+import java.io.FileInputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ReadTableValuesFromWebPageAndWriteToExcel {
+	public static void main(String args[])
+	{
+		WebDriver oBrowser = null;
+		WebElement oEle = null;
+		List<WebElement> oEles = null;
+		FileInputStream fin = null;
+		Workbook wb = null;
+		Sheet sh = null;
+		Row row = null;
+		Cell cell = null;
+		try {
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Library\\drivers\\chromedriver.exe");
+			oBrowser = new ChromeDriver();
+			oBrowser.manage().window().maximize();
+			oBrowser.get("C:\\Users\\Lenovo\\Desktop\\html_pages\\webTableDemo\\webTableDemo.html");
+			Thread.sleep(2000);
+			
+			fin = new FileInputStream("C:\\Users\\Lenovo\\Desktop\\tabledata.xlsx");
+			wb = new XSSFWorkbook(fin);
+		    sh = wb.createSheet("TableDatas");
+			
+			//read the student table data 
+			List<WebElement> intRows = oBrowser.findElements(By.xpath("//table[@id='tbl2']/tbody/tr"));
+			for(int r=0;r<intRows.size();r++)
+			{
+				List<WebElement> intCols = oBrowser.findElements(By.xpath("//table[@id='tbl2']/tbody/tr["+(r)+"]/td"));
+				if(row == null)
+				 sh.createRow(r);
+				for(int c=0;c<intCols.size();c++)
+				{
+					oEle = oBrowser.findElement(By.xpath("//table[@id='tbl2']/tbody/tr["+(r)+"]/td["+(c+1)+"]"));
+					if(cell == null)
+					   row.createCell(c);
+					cell.setCellValue(oEle.getText());
+					//System.out.print("     "+oEle.getText());
+				}
+				//System.out.println();
+				row = null;
+				cell = null;
+			}
+			
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		finally {
+			oEle = null;
+			oEles = null;
+			oBrowser = null;
+		}
+	}
+	
+}

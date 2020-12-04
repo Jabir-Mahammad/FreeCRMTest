@@ -1,0 +1,68 @@
+2018-12-12 14:23:13 INFO  Reporting:44 - URL is navigate successful
+2018-12-12 14:23:14 INFO  Reporting:44 - The data 'admin' was entered in the element 'By.id: username' successful
+2018-12-12 14:23:14 INFO  Reporting:44 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2018-12-12 14:23:15 INFO  Reporting:44 - The element 'By.xpath: //a[@id='loginButton']' was clicked successful
+2018-12-12 14:23:22 INFO  Reporting:44 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-12 14:23:22 INFO  Reporting:44 - Login is successful
+2018-12-12 14:23:24 INFO  Reporting:44 - The element 'By.xpath: //div[text()='USERS']' was clicked successful
+2018-12-12 14:23:27 INFO  Reporting:44 - The element 'By.xpath: //div[text()='Add User']' was clicked successful
+2018-12-12 14:23:29 INFO  Reporting:44 - The data 'demo' was entered in the element 'By.name: firstName' successful
+2018-12-12 14:23:29 INFO  Reporting:44 - The data 'user1' was entered in the element 'By.name: lastName' successful
+2018-12-12 14:23:30 INFO  Reporting:44 - The data 'demo.user1@gmail.com' was entered in the element 'By.name: email' successful
+2018-12-12 14:23:30 INFO  Reporting:44 - The data 'demouser1' was entered in the element 'By.name: username' successful
+2018-12-12 14:23:30 INFO  Reporting:44 - The data '123456.0' was entered in the element 'By.name: password' successful
+2018-12-12 14:23:31 INFO  Reporting:44 - The data '123456.0' was entered in the element 'By.name: passwordCopy' successful
+2018-12-12 14:23:31 INFO  Reporting:44 - The element 'By.xpath: //span[text()='Create User']' was clicked successful
+2018-12-12 14:23:33 INFO  Reporting:44 - Both actual: 'user1, demo' & expected: 'user1, demo' are same
+2018-12-12 14:23:33 INFO  Reporting:44 - User created successful
+2018-12-12 14:23:33 INFO  Reporting:44 - Both actual: 'user1, demo' & expected: 'user1, demo' are same
+2018-12-12 14:23:33 INFO  Reporting:44 - User is created and searched
+2018-12-12 14:23:33 INFO  Reporting:44 - The element 'By.xpath: //span[text()='user1, demo']' was clicked successful
+2018-12-12 14:23:35 INFO  Reporting:44 - The element 'By.id: userDataLightBox_deleteBtn' was clicked successful
+2018-12-12 14:23:39 INFO  Reporting:44 - User deleted successful
+2018-12-12 14:23:42 INFO  Reporting:44 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2018-12-12 14:23:44 INFO  Reporting:44 - Logout is successful
+2018-12-12 14:23:46 ERROR Reporting:47 - Test cases passed
+2018-12-12 19:03:51 INFO  Reporting:44 - URL is navigate successful
+2018-12-12 19:03:51 INFO  Reporting:44 - The data 'admin' was entered in the element 'By.id: username' successful
+2018-12-12 19:03:52 INFO  Reporting:44 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2018-12-12 19:03:52 INFO  Reporting:44 - The element 'By.xpath: //a[@id='loginButton']' was clicked successful
+2018-12-12 19:03:57 INFO  Reporting:44 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-12 19:03:57 INFO  Reporting:44 - Login is successful
+2018-12-12 19:03:59 INFO  Reporting:44 - The element 'By.xpath: //div[text()='USERS']' was clicked successful
+2018-12-12 19:04:01 INFO  Reporting:44 - The element 'By.xpath: //div[text()='Add User']' was clicked successful
+2018-12-12 19:04:03 INFO  Reporting:44 - The data 'demo' was entered in the element 'By.name: firstName' successful
+2018-12-12 19:04:04 INFO  Reporting:44 - The data 'user1' was entered in the element 'By.name: lastName' successful
+2018-12-12 19:04:04 INFO  Reporting:44 - The data 'demo.user1@gmail.com' was entered in the element 'By.name: email' successful
+2018-12-12 19:04:04 INFO  Reporting:44 - The data 'demouser1' was entered in the element 'By.name: username' successful
+2018-12-12 19:04:05 INFO  Reporting:44 - The data '123456.0' was entered in the element 'By.name: password' successful
+2018-12-12 19:04:05 INFO  Reporting:44 - The data '123456.0' was entered in the element 'By.name: passwordCopy' successful
+2018-12-12 19:04:05 INFO  Reporting:44 - The element 'By.xpath: //span[text()='Create User']' was clicked successful
+2018-12-12 19:04:07 INFO  Reporting:44 - Both actual: 'user1, demo' & expected: 'user1, demo' are same
+2018-12-12 19:04:07 INFO  Reporting:44 - User created successful
+2018-12-12 19:04:07 INFO  Reporting:44 - Both actual: 'user1, demo' & expected: 'user1, demo' are same
+2018-12-12 19:04:07 INFO  Reporting:44 - User is created and searched
+2018-12-12 19:04:07 INFO  Reporting:44 - The element 'By.xpath: //span[text()='user1, demo']' was clicked successful
+2018-12-12 19:04:10 INFO  Reporting:44 - The element 'By.id: userDataLightBox_deleteBtn' was clicked successful
+2018-12-12 19:04:14 INFO  Reporting:44 - User deleted successful
+2018-12-12 19:04:17 INFO  Reporting:44 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2018-12-12 19:04:19 INFO  Reporting:44 - Logout is successful
+2018-12-12 19:04:21 ERROR Reporting:47 - Test cases passed
+2018-12-12 19:07:28 INFO  Reporting:44 - URL is navigate successful
+2018-12-12 19:07:29 INFO  Reporting:44 - The data 'admin' was entered in the element 'By.id: username' successful
+2018-12-12 19:07:29 INFO  Reporting:44 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2018-12-12 19:07:29 INFO  Reporting:44 - The element 'By.xpath: //a[@id='loginButton']' was clicked successful
+2018-12-12 19:07:33 INFO  Reporting:44 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-12 19:07:33 INFO  Reporting:44 - Login is successful
+2018-12-12 19:07:36 INFO  Reporting:44 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2018-12-12 19:07:38 INFO  Reporting:44 - Logout is successful
+2018-12-12 19:07:40 INFO  Reporting:44 - Test cases are Passed
+2018-12-12 19:10:18 INFO  Reporting:44 - URL is navigate successful
+2018-12-12 19:10:18 INFO  Reporting:44 - The data 'admin' was entered in the element 'By.id: username' successful
+2018-12-12 19:10:19 INFO  Reporting:44 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2018-12-12 19:10:19 INFO  Reporting:44 - The element 'By.xpath: //a[@id='loginButton']' was clicked successful
+2018-12-12 19:10:23 INFO  Reporting:44 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-12 19:10:23 INFO  Reporting:44 - Login is successful
+2018-12-12 19:10:26 INFO  Reporting:44 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2018-12-12 19:10:28 INFO  Reporting:44 - Logout is successful
+2018-12-12 19:10:30 INFO  Reporting:44 - Test cases are Passed

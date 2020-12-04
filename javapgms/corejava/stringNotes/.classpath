@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="30th-oct-2018_evening_tuesday/" kind="src" path=""/>
+	<classpathentry kind="src" path="30th-oct-2018_evening_tuesday"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

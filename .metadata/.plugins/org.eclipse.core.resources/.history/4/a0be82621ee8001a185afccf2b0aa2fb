@@ -1,0 +1,32 @@
+package com.java.javaBasics;
+
+class Paren{
+	
+	int data = 10;
+	void meth(CallByValue ob) {
+		ob = new CallByValue();
+	    ob.a = 50;
+		System.out.println(ob.a);
+	}
+	
+}
+
+public class CallByValue {
+
+	static int a =50;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		CallByValue ob = new CallByValue();
+		Paren k = new Paren();
+		
+		
+		System.out.println("before change "+a);
+		
+		k.meth(ob);
+		System.out.println(a);
+
+	}
+
+}

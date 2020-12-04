@@ -1,0 +1,31 @@
+package com.java.javaBasics;
+
+class Paren{
+	
+	int data = 10;
+	
+	void meth(int data) {
+		
+		data = data + 10;
+	}
+	
+	void meth2() {
+		
+		System.out.println(data);
+	}
+}
+
+public class CallByValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Paren ob = new Paren();
+		ob.meth(50);
+		
+		ob.meth2();
+		System.out.println(ob.data);
+
+	}
+
+}

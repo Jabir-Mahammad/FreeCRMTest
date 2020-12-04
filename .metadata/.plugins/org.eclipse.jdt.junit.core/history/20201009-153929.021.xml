@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="FreeCrmBDDFramework" tests="5" started="5" failures="0" errors="0" ignored="5">
+  <testsuite name="runner.TestRunner" time="0.061">
+    <testsuite name="Feature: Free CRM Applicationt teting" time="0.061">
+      <testsuite name="Scenario: Validate that Login feature" time="0.007">
+        <testcase name="Given user is on login page" classname="Scenario: Validate that Login feature" time="0.003" ignored="true"/>
+        <testcase name="Then enter uname and pwd" classname="Scenario: Validate that Login feature" time="0.002" ignored="true"/>
+        <testcase name="Then click on login button" classname="Scenario: Validate that Login feature" time="0.002" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Validate Home page" time="0.047">
+        <testcase name="Given user on home page" classname="Scenario: Validate Home page" time="0.004" ignored="true"/>
+        <testcase name="Then verify the title" classname="Scenario: Validate Home page" time="0.043" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

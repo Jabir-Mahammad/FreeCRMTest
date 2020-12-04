@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testSuite7">
+  <test name="Test1">
+     <groups>
+        <define name="All">
+           <include name="CAR"></include>
+           <include name="SCOOTER"></include>
+        </define>
+        
+        <run>
+           <include name="All"></include>
+        </run>
+     </groups>
+     <classes>
+        <class name="groups.GroupsDemo"></class>
+     </classes>
+  </test>
+</suite>

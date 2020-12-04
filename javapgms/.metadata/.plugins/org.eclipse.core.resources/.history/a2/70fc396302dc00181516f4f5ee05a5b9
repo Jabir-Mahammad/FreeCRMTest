@@ -1,0 +1,21 @@
+package assignments.StringAssigment;
+
+public class SearchTheString {
+
+	public static void main(String[] args) {
+		
+		String st="India is best in the world";
+        String search="est";
+        search(st,search);
+	}
+	
+	static void search(String str,String search) {
+		
+		String str1 =str.toLowerCase();
+		String str2 =search.toLowerCase();
+		boolean res = str1.contains(str2);
+		System.out.println(res);
+		
+	}
+
+}

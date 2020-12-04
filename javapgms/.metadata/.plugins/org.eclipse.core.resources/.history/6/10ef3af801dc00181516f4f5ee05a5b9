@@ -1,0 +1,19 @@
+package assignments.StringAssigment;
+
+public class SearchTheString {
+
+	public static void main(String[] args) {
+		
+		String st="India is best in the world";
+        String search="best";
+        search(st,search);
+	}
+	
+	static void search(String str,String search) {
+		
+		boolean res = str.contains(search);
+		System.out.println(res);
+		
+	}
+
+}

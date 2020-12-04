@@ -1,0 +1,29 @@
+package programs;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		
+		String str = "Automtion";
+		
+		//using string buffer Reverse method
+		/*StringBuffer strBuffer = new StringBuffer(str);
+		System.out.println(strBuffer.reverse());*/
+		
+		
+		char arr[] = str.toCharArray();
+		char newStr[]= new char[arr.length];
+		int j=8;
+		for(int i=0;i<arr.length;i++) {
+			
+			newStr[i] = arr[j-i];
+			System.out.print(newStr[i]);
+			
+		}
+
+		String str2 = String.valueOf(newStr);
+		
+		System.out.println(str2.toCharArray());
+	}
+
+}

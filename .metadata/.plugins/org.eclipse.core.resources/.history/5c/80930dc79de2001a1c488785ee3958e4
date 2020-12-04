@@ -1,0 +1,16 @@
+package com.java.javaBasics;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		System.out.println("hello");
+		
+		byte a = 10;
+		byte b = 10;
+		byte c= 20;
+		
+		System.out.println(c);
+		
+	}
+}

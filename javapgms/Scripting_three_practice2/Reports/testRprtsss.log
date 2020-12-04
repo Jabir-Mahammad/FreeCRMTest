@@ -1,0 +1,25 @@
+2018-12-12 19:09:17 INFO  Reporting:44 - Browser is succefully launched 
+2018-12-12 19:09:20 INFO  Reporting:44 - URL is navigate successful
+2018-12-12 19:09:22 INFO  Reporting:44 - The data 'admin' was entered in the element 'By.id: username' successful
+2018-12-12 19:09:22 INFO  Reporting:44 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2018-12-12 19:09:22 INFO  Reporting:44 - The element 'By.xpath: //a[@id='loginButton']' was clicked successful
+2018-12-12 19:09:27 INFO  Reporting:44 - Both actual: 'Enter Time-Track' & expected: 'Enter Time-Track' are same
+2018-12-12 19:09:27 INFO  Reporting:44 - Login is successful
+2018-12-12 19:09:28 INFO  Reporting:44 - The element 'By.xpath: //a[@class='content tasks']' was clicked successful
+2018-12-12 19:09:31 INFO  Reporting:44 - The element 'By.xpath: //*[@class='addNewContainer']' was clicked successful
+2018-12-12 19:09:33 INFO  Reporting:44 - The element 'By.xpath: //*[@class='item createNewProject ellipsis']' was clicked successful
+2018-12-12 19:09:35 INFO  Reporting:44 - The data 'Project1' was entered in the element 'By.xpath: //*[@id='projectPopup_projectNameField']' successful
+2018-12-12 19:09:35 INFO  Reporting:44 - The data 'Client1' was entered in the element 'By.xpath: //*[@id='projectPopup_newCustomerNameField']' successful
+2018-12-12 19:09:35 INFO  Reporting:44 - The element 'By.xpath: //*[@id='projectPopup_commitBtn']' was clicked successful
+2018-12-12 19:09:38 INFO  Reporting:44 - Both actual: 'Project1' & expected: 'Project1' are same
+2018-12-12 19:09:38 INFO  Reporting:44 - Project created successful
+2018-12-12 19:09:38 INFO  Reporting:44 - Project is created and searched
+2018-12-12 19:09:38 INFO  Reporting:44 - The element 'By.xpath: //div[@class='editButton available']' was clicked successful
+2018-12-12 19:09:40 INFO  Reporting:44 - The element 'By.xpath: //*[@class='actionButton']' was clicked successful
+2018-12-12 19:09:42 INFO  Reporting:44 - The element 'By.xpath: //*[@id='taskListBlock']/div[2]/div[4]/div/div[3]/div' was clicked successful
+2018-12-12 19:09:44 INFO  Reporting:44 - The element 'By.xpath: //*[@id='customerPanel_deleteConfirm_submitBtn']/div' was clicked successful
+2018-12-12 19:09:46 INFO  Reporting:44 - Project deleted successful
+2018-12-12 19:09:49 INFO  Reporting:44 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2018-12-12 19:09:52 INFO  Reporting:44 - Logout is successful
+2018-12-12 19:09:54 INFO  Reporting:44 - Test case passed
+2018-12-12 19:09:54 INFO  Reporting:44 - user created and deleted successfully

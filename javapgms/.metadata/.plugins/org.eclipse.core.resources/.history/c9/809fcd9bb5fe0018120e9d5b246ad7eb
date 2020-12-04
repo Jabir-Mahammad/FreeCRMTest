@@ -1,0 +1,49 @@
+2018-12-13 13:56:29 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 13:56:41 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 13:56:42 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 13:56:43 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 13:56:43 INFO  Reporting:44 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 13:56:44 INFO  Reporting:44 - The element 'DepartDate' was clicked successful
+2018-12-13 13:56:45 INFO  Reporting:44 - The element 'BoardingDate' was clicked successful
+2018-12-13 13:56:48 INFO  Reporting:44 - The element 'DeBoardingDate1' was clicked successful
+2018-12-13 13:56:48 INFO  Reporting:44 - The element 'DeBoardingDate2' was clicked successful
+2018-12-13 13:56:48 INFO  Reporting:44 - Test cases are passed
+2018-12-13 13:56:48 INFO  Reporting:44 - TestScript TC_URL_Navigation is Passed
+2018-12-13 14:04:45 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 14:05:06 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 14:05:07 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 14:05:07 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 14:05:08 INFO  Reporting:44 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 14:05:08 INFO  Reporting:44 - The element 'DepartDate' was clicked successful
+2018-12-13 14:05:09 INFO  Reporting:44 - The element 'BoardingDate' was clicked successful
+2018-12-13 14:05:11 INFO  Reporting:44 - The element 'DeBoardingDate1' was clicked successful
+2018-12-13 14:05:11 INFO  Reporting:44 - The element 'DeBoardingDate2' was clicked successful
+2018-12-13 14:05:18 INFO  Reporting:44 - Test cases are passed
+2018-12-13 14:05:18 INFO  Reporting:44 - TestScript TC_URL_Navigation is Passed
+2018-12-13 14:08:55 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 14:09:06 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 14:09:06 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 14:09:07 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 14:09:07 INFO  Reporting:44 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 14:09:08 INFO  Reporting:44 - The element 'DepartDate' was clicked successful
+2018-12-13 14:09:08 INFO  Reporting:44 - The element 'BoardingDate' was clicked successful
+2018-12-13 14:09:10 INFO  Reporting:44 - The element 'DeBoardingDate1' was clicked successful
+2018-12-13 14:09:11 INFO  Reporting:44 - The element 'DeBoardingDate2' was clicked successful
+2018-12-13 14:09:18 INFO  Reporting:44 - The element 'MoreEvents' was clicked successful
+2018-12-13 14:09:18 INFO  Reporting:44 - Test cases are passed
+2018-12-13 14:09:18 INFO  Reporting:44 - TestScript TC_URL_Navigation is Passed
+2018-12-13 14:29:13 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 14:29:35 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 14:29:35 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 14:29:36 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 14:29:36 INFO  Reporting:44 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 14:29:37 INFO  Reporting:44 - The element 'DepartDate' was clicked successful
+2018-12-13 14:29:37 INFO  Reporting:44 - The element 'BoardingDate' was clicked successful
+2018-12-13 14:29:39 INFO  Reporting:44 - The element 'DeBoardingDate1' was clicked successful
+2018-12-13 14:29:40 INFO  Reporting:44 - The element 'DeBoardingDate2' was clicked successful
+2018-12-13 14:29:47 INFO  Reporting:44 - The element 'MoreEvents' was clicked successful
+2018-12-13 14:29:47 INFO  Reporting:44 - The element 'PrefAirLine' was clicked successful
+2018-12-13 14:29:52 INFO  Reporting:44 - The element 'PrefAirLine' was clicked successful
+2018-12-13 14:29:52 INFO  Reporting:44 - The data 'Air India' was entered in the element 'By.xpath: //div[@class='col col11']/dl/dd/span[@class='span span24 clearField']/input' successful
+2018-12-13 14:29:56 FATAL Reporting:50 - exception while executing 'seachFlight' method null
+2018-12-13 14:29:56 ERROR Reporting:47 - Test cases failed

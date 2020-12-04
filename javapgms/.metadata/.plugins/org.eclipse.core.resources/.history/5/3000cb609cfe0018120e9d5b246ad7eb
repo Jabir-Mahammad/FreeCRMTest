@@ -1,0 +1,5 @@
+2018-12-13 11:24:13 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 11:24:23 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 11:24:23 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 11:24:25 INFO  Reporting:44 - Test cases are passed
+2018-12-13 11:24:27 INFO  Reporting:44 - TestScript TC_URL_Navigation is Passed

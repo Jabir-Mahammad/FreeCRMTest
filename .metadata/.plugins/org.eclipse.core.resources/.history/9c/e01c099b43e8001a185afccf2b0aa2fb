@@ -1,0 +1,20 @@
+package com.java.javaBasics;
+
+public class Stringmethods {
+
+	public static void main(String[] args) {
+	   
+		
+		String a = "meow";
+		
+		String b = a+"deal";
+		String ab="meowdeal";
+				
+		System.out.println(ab==b);
+		
+		
+		
+
+	}
+
+}

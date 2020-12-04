@@ -1,0 +1,28 @@
+package com.crm.qa.stepDefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class LoginStepDefinition {
+
+	@Given("^user is on browser$")
+	public void user_is_on_browser() throws Throwable {
+	    
+	}
+
+	@Given("^validate that user is on login page$")
+	public void validate_that_user_is_on_login_page() throws Throwable {
+	    
+	}
+
+	@Given("^user login the Application$")
+	public void user_login_the_Application() throws Throwable {
+	    
+	}
+
+	@Then("^validate home page title$")
+	public void validate_home_page_title() throws Throwable {
+	   
+	}
+	
+}

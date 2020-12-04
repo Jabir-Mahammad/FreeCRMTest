@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="FreeCRM-BDD-POM" tests="4" started="4" failures="2" errors="0" ignored="2">
+  <testsuite name="com.crm.qa.runner.TestRunner" time="0.434">
+    <testsuite name="Feature: Free CRM Application" time="0.434">
+      <testsuite name="Scenario: Free CRM Login Validation" time="0.256" incomplete="true">
+        <failure>
+          <expected/>
+          <actual>CRMPRO - CRM software for customer relationship management, sales, and support.</actual>junit.framework.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[CRMPRO - CRM software for customer relationship management, sales, and support.]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at com.crm.qa.stepDefinition.LoginStepDefinition.validate_that_user_is_on_login_page(LoginStepDefinition.java:25)&#13;
+	at ✽.And validate that user is on login page(E:/SeleniumWorkspace/FreeCRM-BDD-POM/src/main/java/com/crm/qa/features/loginValidation.feature:25)&#13;
+&#13;
+</failure>
+        <testcase name="Given user is on browser" classname="Scenario: Free CRM Login Validation" time="0.129"/>
+        <testcase name="And validate that user is on login page" classname="Scenario: Free CRM Login Validation" time="0.126">
+          <failure>
+            <expected/>
+            <actual>CRMPRO - CRM software for customer relationship management, sales, and support.</actual>junit.framework.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[CRMPRO - CRM software for customer relationship management, sales, and support.]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at com.crm.qa.stepDefinition.LoginStepDefinition.validate_that_user_is_on_login_page(LoginStepDefinition.java:25)&#13;
+	at ✽.And validate that user is on login page(E:/SeleniumWorkspace/FreeCRM-BDD-POM/src/main/java/com/crm/qa/features/loginValidation.feature:25)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="And user login the Application" classname="Scenario: Free CRM Login Validation" time="0.003" ignored="true"/>
+        <testcase name="Then validate home page title" classname="Scenario: Free CRM Login Validation" time="0.152" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

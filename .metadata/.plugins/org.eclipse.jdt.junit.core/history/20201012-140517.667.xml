@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="FreeCRM-BDD-POM" tests="4" started="4" failures="0" errors="0" ignored="4">
+  <testsuite name="com.crm.qa.runner.TestRunner" time="0.0">
+    <testsuite name="Feature: Free CRM Application" time="0.0">
+      <testsuite name="Scenario: Free CRM Login Validation" time="0.0">
+        <testcase name="Given user is on browser" classname="Scenario: Free CRM Login Validation" time="0.0" ignored="true"/>
+        <testcase name="And validate that user is on login page" classname="Scenario: Free CRM Login Validation" time="0.0" ignored="true"/>
+        <testcase name="And user login the Application" classname="Scenario: Free CRM Login Validation" time="0.0" ignored="true"/>
+        <testcase name="Then validate home page title" classname="Scenario: Free CRM Login Validation" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,20 @@
+2018-12-13 11:51:04 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 11:51:15 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 11:51:15 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 11:51:17 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 11:51:19 FATAL Reporting:50 - exception while executing 'seachFlight' methodnull
+2018-12-13 11:51:19 ERROR Reporting:47 - Test cases failed
+2018-12-13 11:53:38 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 11:53:53 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 11:53:54 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 11:53:56 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 11:53:59 INFO  Reporting:44 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 11:54:01 FATAL Reporting:50 - exception while executing 'seachFlight' methodnull
+2018-12-13 11:54:01 ERROR Reporting:47 - Test cases failed
+2018-12-13 11:58:04 INFO  Reporting:44 - Browser launched successfully
+2018-12-13 11:58:12 INFO  Reporting:44 - URL is navigate successful
+2018-12-13 11:58:13 INFO  Reporting:44 - The element 'trip_Mode' was clicked successful
+2018-12-13 11:58:15 INFO  Reporting:44 - The data 'Bangalore' was entered in the element 'FromLoc' successful
+2018-12-13 11:58:18 INFO  Reporting:44 - The data 'New Delhi' was entered in the element 'ToLoc' successful
+2018-12-13 11:58:20 INFO  Reporting:44 - Test cases are passed
+2018-12-13 11:58:20 INFO  Reporting:44 - TestScript TC_URL_Navigation is Passed

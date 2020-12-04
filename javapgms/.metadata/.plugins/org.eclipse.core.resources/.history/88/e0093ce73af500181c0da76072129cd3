@@ -1,0 +1,56 @@
+package XpathAssignment;
+
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ClearTripAutomate {
+
+	public static void main(String[] args) {
+		clearTripflight();
+
+	}
+
+	static void clearTripflight()
+	{
+		ChromeDriver ch = null;
+	    String xpath=null;
+		try
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Library\\drivers\\chromedriver.exe");
+		    ch = new ChromeDriver();
+		    
+		    ch.get("https://www.cleartrip.com");
+		    Thread.sleep(2000);
+		    ch.manage().window().maximize();
+		    
+		    xpath="//input[@id='RoundTrip']";
+		    ch.findElement(By.xpath(xpath)).click();
+		    
+		    xpath="//input[@id='FromTag']";
+		    ch.findElement(By.xpath(xpath)).sendKeys("Bangalore");
+		    Thread.sleep(2000);
+		    
+		  //  WebElement textbox = ch.findElement(By.xpath(xpath));
+		  //  textbox.sendKeys(Keys.ENTER);
+		    
+		    Robot robot = new Robot();
+		    robot.keyPress(KeyEvent.VK_ENTER);
+		    
+		   // ch.close();
+		  
+		}catch(Exception e )
+		{
+			
+           System.out.println(e);
+		
+		}finally
+		{
+			ch = null;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+package assignments.StringAssigment;
+
+import java.util.*;
+
+public class SplitTheStringWithoutUsingSplitMethod {
+
+	public static void main(String[] args) {
+		
+		String str="India is best in the world";
+		/*String arr[]=str.split(" ");
+		System.out.println(arr[2]);*/
+		
+		int k=0,m=0;
+		
+		char arr[]= new char[100];
+		String strin[]={};
+		
+		
+		for(int i=0;i<str.length();i++) {
+			char ch = str.charAt(i);
+			
+			if(ch!=' ')
+			{
+				
+			    arr[k]=ch;	
+			    k++;
+				
+			}
+			if(ch==' ') {
+				String arr2="";
+			 arr2=new String(arr);
+			strin[m]=arr2;
+			m++;
+			 k=0;
+			}
+			
+			}
+		for(String s:strin) {
+			System.out.println(s);
+		}
+	
+		
+
+	}
+
+}

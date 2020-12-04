@@ -1,0 +1,84 @@
+package actiTimeAssignment;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ReadTableValuesFromWebPageAndWriteToExcel {
+	public static void main(String args[])
+	{
+		WebDriver oBrowser = null;
+		WebElement oEle = null;
+		List<WebElement> oEles = null;
+		try {
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Library\\drivers\\chromedriver.exe");
+			oBrowser = new ChromeDriver();
+			oBrowser.manage().window().maximize();
+			oBrowser.get("C:\\Users\\Lenovo\\Desktop\\html_pages\\webTableDemo.html");
+			Thread.sleep(2000);
+			
+			
+			//find how many tables are present
+			oEles = oBrowser.findElements(By.tagName("table"));
+			System.out.println("No. of tables: "+oEles.size());
+			
+			//read the "Employee Tables" column names
+			oEles = oBrowser.findElements(By.xpath("//table[@id='table1']/tbody/tr[1]/th"));
+			System.out.println("No. of columns: "+oEles.size());
+			for(int i=0;i<oEles.size();i++)
+			{
+				System.out.println(oEles.get(i).getText());
+			}
+			
+			
+			//read the student table data 
+			List<WebElement> intRows = oBrowser.findElements(By.xpath("//table[@id='table2']/tbody/tr"));
+			for(int r=0;r<intRows.size();r++)
+			{
+				List<WebElement> intCols = oBrowser.findElements(By.xpath("//table[@id='table2']/tbody/tr["+(r+1)+"]/td"));
+				for(int c=0;c<intCols.size();c++)
+				{
+					oEle = oBrowser.findElement(By.xpath("//table[@id='table2']/tbody/tr["+(r+1)+"]/td["+(c+1)+"]"));
+					System.out.print("     "+oEle.getText());
+				}
+				System.out.println();
+			}
+			
+			
+			//find the description based on City name in table "City Details"
+			List<String> oCityDescription = getCityDetails(oBrowser, "Raichur");
+			System.out.println(oCityDescription);
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		finally {
+			oEle = null;
+			oEles = null;
+			oBrowser = null;
+		}
+	}
+	
+	
+	//verify the presence of the element
+	static List<String> getCityDetails(WebDriver odriver, String strCityName)
+	{
+		List<WebElement> oEle = null;
+		List<String> oList = null;
+		try {
+			oList = new ArrayList<>();
+			oEle = odriver.findElements(By.xpath("//table[@id='table3']/tbody/tr/td[text()="+"'"+strCityName+"'"+"]/following-sibling::td/*/li"));
+			for(int i=0;i<oEle.size();i++)
+			{
+				oList.add(oEle.get(i).getText());
+			}
+			return oList;
+		}catch(Exception e)
+		{
+			return null;
+		}
+	}
+}

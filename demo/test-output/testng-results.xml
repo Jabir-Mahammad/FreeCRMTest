@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="181" started-at="2020-08-20T04:18:12Z" finished-at="2020-08-20T04:18:12Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TestNGgroups.metod3()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod3" class="com.tests.TestNGgroups"/>
+        <method signature="TestNGgroups.metod4()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod4" class="com.tests.TestNGgroups"/>
+        <method signature="TestNGgroups.metod5()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod5" class="com.tests.TestNGgroups"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestNGgroups.metod5()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod5" class="com.tests.TestNGgroups"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="181" started-at="2020-08-20T04:18:12Z" finished-at="2020-08-20T04:18:12Z">
+      <class name="com.tests.TestNGgroups">
+        <test-method status="PASS" signature="metod3()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod3" duration-ms="38" started-at="2020-08-20T09:48:12Z" finished-at="2020-08-20T09:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- metod3 -->
+        <test-method status="PASS" signature="metod4()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod4" duration-ms="3" started-at="2020-08-20T09:48:12Z" finished-at="2020-08-20T09:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- metod4 -->
+        <test-method status="PASS" signature="metod5()[pri:0, instance:com.tests.TestNGgroups@4206a205]" name="metod5" duration-ms="8" started-at="2020-08-20T09:48:12Z" finished-at="2020-08-20T09:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- metod5 -->
+      </class> <!-- com.tests.TestNGgroups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
